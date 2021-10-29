@@ -28,7 +28,7 @@
 
 ### Train Dataset
 
-- `root_path/train/train_data/`(228,913개의 wav 파일 \*확장자 없는 레이블 형태)
+- `root_path/train/train_data/`(268,928개의 wav 파일 \*확장자 없는 레이블 형태)
 
   ```
   idx0000001
@@ -46,7 +46,7 @@
 
 `root_path/train/train_label`
 
-- `train_label (DataFrame 형식, 228,913rows)`
+- `train_label (DataFrame 형식, 268,928rows)`
 
   - columns - `["file_name", "text"]`
 
@@ -56,7 +56,7 @@
 
 ### Test Dataset
 
-- `root_path/test/test_data/`(9,436개의 wav 파일 \*확장자 없는 레이블 형태/ train_data와 파일명 형식이 다름에 주의)
+- `root_path/test/test_data/`(10,000개의 wav 파일 \*확장자 없는 레이블 형태/ train_data와 파일명 형식이 다름에 주의)
 
   ```
   idx_0000001
@@ -74,7 +74,7 @@
 
 - `root_path/test/test_label` (참가자 접근 불가)
 
-- `test_label (DataFrame 형식, 9,436rows)`
+- `test_label (DataFrame 형식, 10,000rows)`
 
   - columns = `["file_name", "text"]`
 
@@ -95,7 +95,7 @@
 
 ### Train Dataset
 
-- `root_path/train/train_data/`(113,347개의 wav 파일 \*확장자 없는 레이블 형태)
+- `root_path/train/train_data/`(197,146개의 wav 파일 \*확장자 없는 레이블 형태)
 
   ```
   idx0000001
@@ -113,7 +113,7 @@
 
 - `root_path/train/train_label`
 
-- `train_label (DataFrame 형식, 113,347rows)`
+- `train_label (DataFrame 형식, 197,146rows)`
 
   - columns - `["file_name", "text"]`
 
@@ -141,7 +141,7 @@
 
 - `root_path/test/test_label` (참가자 접근 불가)
 
-- `test_label (DataFrame 형식, 10,374rows)`
+- `test_label (DataFrame 형식, 10,000rows)`
 
 - columns = `["file_name", "text"]`
 
