@@ -24,7 +24,7 @@
 
   | 전체 크기 |                 파일수                  | NSML 데이터셋 이름 |
   | :-------: | :-------------------------------------: | :----: |
-  |  54.5GB  | train_data(268,928)<br>test_data(10,000) | stt_1 |
+  |  54.5GB  | train_data(268,928)<br>test_data(10,000) | final_stt_1 |
 
 ### Train Dataset
 
@@ -91,7 +91,7 @@
 
   | 전체 크기 |                  파일수                  |  NSML 데이터셋 이름 |
   | :-------: | :--------------------------------------: | :-----: |
-  |   62GB    | train_data(197,146)<br>test_data(10,000) | stt_2 |
+  |   62GB    | train_data(197,146)<br>test_data(10,000) | final_stt_2 |
 
 ### Train Dataset
 
@@ -160,7 +160,7 @@
 
   | 전체 크기 |                 파일수                  | NSML 데이터셋 이름 |
   | :-------: | :-------------------------------------: | :----: |
-  |  35.44GB  | train_data(228,913)<br>test_data(9,436) | stt_2 |
+  |  35.44GB  | train_data(228,913)<br>test_data(9,436) | final_stt_3 |
 
 ### Train Dataset
 
