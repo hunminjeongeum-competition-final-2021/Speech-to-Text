@@ -24,22 +24,22 @@
 
   | 전체 크기 |                 파일수                  | NSML 데이터셋 이름 |
   | :-------: | :-------------------------------------: | :----: |
-  |  35.44GB  | train_data(228,913)<br>test_data(9,436) | stt_2 |
+  |  54.5GB  | train_data(268,928)<br>test_data(10,000) | stt_1 |
 
 ### Train Dataset
 
 - `root_path/train/train_data/`(228,913개의 wav 파일 \*확장자 없는 레이블 형태)
 
   ```
-  idx000001
-  idx000002
-  idx000003
-  idx000004
+  idx0000001
+  idx0000002
+  idx0000003
+  idx0000004
   ...
-  idx228910
-  idx228911
-  idx228912
-  idx228913
+  idx0268925
+  idx0268926
+  idx0268927
+  idx0268928
   ```
 
 ### Train Label
@@ -59,15 +59,15 @@
 - `root_path/test/test_data/`(9,436개의 wav 파일 \*확장자 없는 레이블 형태/ train_data와 파일명 형식이 다름에 주의)
 
   ```
-  idx_000001
-  idx_000002
-  idx_000003
-  idx_000004
+  idx_0000001
+  idx_0000002
+  idx_0000003
+  idx_0000004
   ...
-  idx_009433
-  idx_009434
-  idx_009435
-  idx_009436
+  idx_0009997
+  idx_0009998
+  idx_0009999
+  idx_0010000
   ```
 
 ### Test Label
@@ -91,22 +91,22 @@
 
   | 전체 크기 |                  파일수                  |  NSML 데이터셋 이름 |
   | :-------: | :--------------------------------------: | :-----: |
-  |   33GB    | train_data(113,347)<br>test_data(10,374) | stt_1 |
+  |   62GB    | train_data(197,146)<br>test_data(10,000) | stt_2 |
 
 ### Train Dataset
 
 - `root_path/train/train_data/`(113,347개의 wav 파일 \*확장자 없는 레이블 형태)
 
   ```
-  idx000001
-  idx000002
-  idx000003
-  idx000004
+  idx0000001
+  idx0000002
+  idx0000003
+  idx0000004
   ...
-  idx113344
-  idx113345
-  idx113346
-  idx113347
+  idx0197143
+  idx0197144
+  idx0197145
+  idx0197146
   ```
 
 ### Train Label
@@ -123,18 +123,18 @@
 
 ### Test Data
 
-- `root_path/test/test_data/`(10,374개의 wav 파일 \*확장자 없는 레이블 형태 / train_data와 파일명 형식이 다름에 주의)
+- `root_path/test/test_data/`(10,000개의 wav 파일 \*확장자 없는 레이블 형태 / train_data와 파일명 형식이 다름에 주의)
 
   ```
-  idx_000001
-  idx_000002
-  idx_000003
-  idx_000004
+  idx_0000001
+  idx_0000002
+  idx_0000003
+  idx_0000004
   ...
-  idx_010371
-  idx_010372
-  idx_010373
-  idx_010374
+  idx_0009997
+  idx_0009998
+  idx_0009999
+  idx_0010000
   ```
 
 ### Test Label
