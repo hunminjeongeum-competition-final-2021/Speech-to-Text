@@ -82,7 +82,6 @@
 
   - `text` - test_data 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (ex. 훈민정음에 스며들다)
 
-  - 참가자 분들은 `file_name`과 `text` column을 모두 기입한 DataFrame을 결과물로 구성(최종 제출 format)
 
 
 ## 문제 4 **[음성인식-명령어 Dataset 설명]**
@@ -149,8 +148,7 @@
 
   - `text` - test_data 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (ex. 훈민정음에 스며들다)
 
-  - 참가자 분들은 `file_name`과 `text` column을 모두 기입한 DataFrame을 결과물로 구성 (최종 제출 format)
-
+  
 ---
 
 
@@ -160,62 +158,53 @@
 
   | 전체 크기 |                 파일수                  | NSML 데이터셋 이름 |
   | :-------: | :-------------------------------------: | :----: |
-  |  35.44GB  | train_data(228,913)<br>test_data(9,436) | final_stt_3 |
+  |  65.42GB  | train_data(1,059)<br>test_data(60) | final_stt_3 |
 
 ### Train Dataset
 
-- `root_path/train/train_data/`(228,913개의 wav 파일 \*확장자 없는 레이블 형태)
+- `root_path/train/train_data/`(1,059개의 wav 파일 \*확장자 없는 레이블 형태)
 
   ```
-  idx000001
-  idx000002
-  idx000003
-  idx000004
+  DJSX20002450
+  DJSX20002451
+
   ...
-  idx228910
-  idx228911
-  idx228912
-  idx228913
+  DKSR20000888
+  DKSR20000889
   ```
 
 ### Train Label
 
-`root_path/train/train_label`
+`root_path/train/train_label`(1,059개의 json 파일 \*확장자 없는 레이블 형태)
 
-- `train_label (DataFrame 형식, 228,913rows)`
+- `train_label (DataFrame 형식, 1,059개의 rows)`
 
   - columns - `["file_name", "text"]`
 
-  - `file_name` - train_data 폴더에 존재하는 wav파일명 (ex. idx000001)
+  - `file_name` - train_data 폴더에 존재하는 wav파일명 (ex. DKSR20000888)
 
-  - `text` - train_data 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (ex. 훈민정음에 스며들다)
+  - `text` - train_data 폴더에 존재하는 wav파일과 매칭되는 메타 정보(json) 
 
 ### Test Dataset
 
-- `root_path/test/test_data/`(9,436개의 wav 파일 \*확장자 없는 레이블 형태/ train_data와 파일명 형식이 다름에 주의)
+- `root_path/test/test_data/`(60개의 wav 파일 \*확장자 없는 레이블 형태)
 
   ```
-  idx_000001
-  idx_000002
-  idx_000003
-  idx_000004
+  DJDD20000306
+  DJDD20000307
   ...
-  idx_009433
-  idx_009434
-  idx_009435
-  idx_009436
+  DKSR20006835
+  DKSR20006836
   ```
 
 ### Test Label
 
 - `root_path/test/test_label` (참가자 접근 불가)
 
-- `test_label (DataFrame 형식, 9,436rows)`
+- `test_label (DataFrame 형식, 60 rows)`
 
   - columns = `["file_name", "text"]`
 
-  - `file_name` - test_data 폴더에 존재하는 wav파일명 (ex. idx_000001)
+  - `file_name` - test_data 폴더에 존재하는 wav파일명 (ex. DJDD20000306)
 
-  - `text` - test_data 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (ex. 훈민정음에 스며들다)
-
-  - 참가자 분들은 `file_name`과 `text` column을 모두 기입한 DataFrame을 결과물로 구성(최종 제출 format)
+  - `text` - test_data 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (json 파일의 `dialect_form`을 ' '로 이어붙여 생성하였음)
