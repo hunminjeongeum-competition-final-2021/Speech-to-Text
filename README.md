@@ -162,7 +162,7 @@
 
 ### Train Dataset
 
-- `root_path/train/train_data/`(1,059개의 wav 파일 \*확장자 없는 레이블 형태)
+- `root_path/train/train_data/wav`(1,059개의 wav 파일 \*확장자 없는 레이블 형태)
 
   ```
   DJSX20002450
@@ -172,18 +172,20 @@
   DKSR20000888
   DKSR20000889
   ```
+  
+- `root_path/train/train_data/info`(1,059개의 json 파일 \*확장자 없는 레이블 형태)
+
+
 
 ### Train Label
 
-`root_path/train/train_label`(1,059개의 json 파일 \*확장자 없는 레이블 형태)
-
-- `train_label (DataFrame 형식, 1,059개의 rows)`
+`root_path/train/train_label`(DataFrame 형식, 1,059개의 rows)
 
   - columns - `["file_name", "text"]`
 
   - `file_name` - train_data 폴더에 존재하는 wav파일명 (ex. DKSR20000888)
 
-  - `text` - train_data 폴더에 존재하는 wav파일과 매칭되는 메타 정보(json) 
+  - `text` - train_data/wav 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (train_data/info 파일(json)의 `dialect_form`을 ' '로 이어붙여 생성하였음)
 
 ### Test Dataset
 
