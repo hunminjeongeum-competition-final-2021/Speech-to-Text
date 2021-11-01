@@ -1,6 +1,6 @@
 # 음성인식 인공지능 경진대회
 
-- [문제3 음성 인식(자유대화) 데이터 셋명](#문제-3-음성인식-자유대화-dataset-설명)
+- [문제3 음성 인식(자유대화) 데이터셋 설명](#문제-3-음성인식-자유대화-dataset-설명)
 - [문제4 음성 인식(명령어) 데이터셋 설명](#문제-4-음성인식-명령어-dataset-설명)
 - [문제5 음성 인식(한국어방언) 데이터 셋명](#문제-5-음성인식-한국어방언-dataset-설명)
 
@@ -174,6 +174,9 @@
   ```
   
 - `root_path/train/train_data/info`(1,059개의 json 파일 \*확장자 없는 레이블 형태)
+
+- [경상도 발화 데이터](https://aihub.or.kr/sites/default/files/2021-06/14.%20%5B%ED%95%9C%EA%B5%AD%EC%96%B4%20%EB%B0%A9%EC%96%B8%20%EA%B3%BC%EC%A0%9C%5D%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%EB%B0%A9%EC%96%B8%20%EB%B0%9C%ED%99%94%20%EB%8D%B0%EC%9D%B4%ED%84%B0%28%EA%B2%BD%EC%83%81%EB%8F%84%29.pdf)
+- [전라도 발화 데이터](https://aihub.or.kr/sites/default/files/2021-06/15.%20%5B%ED%95%9C%EA%B5%AD%EC%96%B4%20%EB%B0%A9%EC%96%B8%20%EA%B3%BC%EC%A0%9C%5D%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%EB%B0%A9%EC%96%B8%20%EB%B0%9C%ED%99%94%20%EB%8D%B0%EC%9D%B4%ED%84%B0%28%EC%A0%84%EB%9D%BC%EB%8F%84%29.pdf)
 
 
 
