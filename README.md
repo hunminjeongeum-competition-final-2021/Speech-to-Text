@@ -188,7 +188,7 @@
 
   - `file_name` - train_data 폴더에 존재하는 wav파일명 (ex. DKSR20000888)
 
-  - `text` - train_data/wav 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (train_data/info 파일(json)의 `dialect_form`을 ' '로 이어붙여 생성하였음)
+  - `text` - train_data/wav 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (train_data/info 파일(json)의 `dialect_form`을 띄어쓰기(' ')로 이어붙여 생성하였음)
 
 ### Test Dataset
 
@@ -212,4 +212,4 @@
 
   - `file_name` - test_data 폴더에 존재하는 wav파일명 (ex. DJDD20000306)
 
-  - `text` - test_data 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (json 파일의 `dialect_form`을 ' '로 이어붙여 생성하였음)
+  - `text` - test_data 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (json 파일의 `dialect_form`을 띄어쓰기(' ')로 이어붙여 생성하였음)
