@@ -28,19 +28,12 @@
 
 ### Train Dataset
 
-- `root_path/train/train_data/`(268,928개의 wav 파일 \*확장자 없는 레이블 형태)
-
-  ```
-  idx0000001
-  idx0000002
-  idx0000003
-  idx0000004
-  ...
-  idx0268925
-  idx0268926
-  idx0268927
-  idx0268928
-  ```
+- `root_path/train/train_data/`(총 267,928개의 음성 파일 \*확장자 없는 레이블 형태)
+  - PCM 파일(118,680개)
+    - 파일명: idx0000001 ~ idx0118680
+    - PCM 샘플링 주파수: 16kHz
+  - wav 파일(150,248개)
+    - 파일명: idx0118681 ~ idx0267928
 
 ### Train Label
 
@@ -50,9 +43,9 @@
 
   - columns - `["file_name", "text"]`
 
-  - `file_name` - train_data 폴더에 존재하는 wav파일명 (ex. idx000001)
+  - `file_name` - train_data 폴더에 존재하는 파일명 (ex. idx000001)
 
-  - `text` - train_data 폴더에 존재하는 wav파일과 매칭되는 Text 정보 (ex. 훈민정음에 스며들다)
+  - `text` - train_data 폴더에 존재하는 파일과 매칭되는 Text 정보 (ex. 훈민정음에 스며들다)
 
 ### Test Dataset
 
